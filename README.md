@@ -41,5 +41,4 @@ Install guide:
 		client = {
 		}
 	},
-
-    5. Start your server and enjoy!
+5. Start your server and enjoy!
