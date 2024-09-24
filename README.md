@@ -2,13 +2,14 @@ Install guide:
 
 1. Install these dependecies:
     ox_lib - https://github.com/overextended/ox_lib/releases/latest/download/ox_lib.zip
+   
     ox_target/qtarget/qb-target (Optional, depends on config)
 
-2. Ensure the resource in server.cfg
+3. Ensure the resource in server.cfg
 
-3. Copy and paste images from "inventory_images" into ox_inventory/web/build/images
+4. Copy and paste images from "inventory_images" into ox_inventory/web/build/images
 
-4. Add this to ox_inventory/data/items.lua:
+5. Add this to ox_inventory/data/items.lua:
 
 	['ammo-9-box'] = {
 		label = '9mm Box',
@@ -41,4 +42,4 @@ Install guide:
 		client = {
 		}
 	},
-5. Start your server and enjoy!
+6. Start your server and enjoy!
